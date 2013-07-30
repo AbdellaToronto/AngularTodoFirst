@@ -12,21 +12,23 @@
 
 <div class="row">
     <input class="col-lg-4" ng-model="myTask" placeholder="Add a new task here">
+    <div class="btn" ng-click="save()">Save</div>
+</div>
+    <div class="row">
+        <h2>{{myTask}}</h2>
+    </div>
+
+<li class="row" ng-repeat="y in todoList">
+    <h2>{{y.x}}</h2>
+</li>
 </div>
 
-<div class="row"
-        ><h2>{{myTask}}</h2>
-</div>
-</div>
-
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+<script type="text/javascript" src="js/angularFire.js"></script>
+<script type="text/javascript" src="js/Todo.js"></script>
+<script type="text/javascript" src="js/mycontroller.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
-
-
-
-    <script type="text/javascript" src="js/angular.min.js"></script>
-    <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
-    <script type="text/javascript" src="js/angularFire.js"></script>
-    <script type="text/javascript" src="js/Todo.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
