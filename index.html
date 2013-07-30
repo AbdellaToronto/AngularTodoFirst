@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html ng-app>
+<html lang="en" ng-app="Todo">
 <head>
     <title>Angular Todo with Firebase!</title>
-    <link type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body ng-controller="mycontroller">
 
-<input ng-model="myTask" placeholder="Add a new task Here">
+<div id="main" class="container">
 
-<h2>{{myTask}}</h2>
+<div class="row">
+    <input class="col-lg-4" ng-model="myTask" placeholder="Add a new task here">
+</div>
+
+<div class="row"
+        ><h2>{{myTask}}</h2>
+</div>
+</div>
 
 </body>
 
@@ -17,6 +26,7 @@
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
     <script type="text/javascript" src="js/angularFire.js"></script>
+    <script type="text/javascript" src="js/Todo.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
