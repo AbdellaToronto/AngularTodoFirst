@@ -12,15 +12,17 @@
 
 <div class="row">
     <input class="col-lg-4" ng-model="myTask" placeholder="Add a new task here">
-    <div class="btn" ng-click="save()">Save</div>
+    <button type="button" class="btn" ng-click="save()">Save</button>
 </div>
     <div class="row">
         <h2>{{myTask}}</h2>
     </div>
-
-<li class="row" ng-repeat="y in todoList">
+ <dl class="dl-horizontal row"  ng-repeat="y in todoList">
+<dt>
     <h2>{{y.x}}</h2>
-</li>
+</dt>
+<dd><h2>{{y.x + " " + "Della"}}</h2></dd>
+ </dl>
 </div>
 
 <script type="text/javascript" src="js/angular.min.js"></script>

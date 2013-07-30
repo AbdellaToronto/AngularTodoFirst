@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afde89c1-78bc-48e8-ad91-7f7b978a4c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Della.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mycontroller.js" afterPath="$PROJECT_DIR$/js/mycontroller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularTodoFirst.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375164137993" ignored="false" />
-    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163144251" ignored="false" />
+    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375202771952" ignored="false" />
+    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375164191186" ignored="false" />
     <file path="/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375162928943" ignored="false" />
     <file path="/Todo.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163054499" ignored="false" />
     <file path="/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163701424" ignored="false" />
+    <file path="/a.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375201925755" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="54" selection-start="987" selection-end="987" vertical-scroll-proportion="-18.961538">
+            <state line="17" column="19" selection-start="579" selection-end="579" vertical-scroll-proportion="0.43328336">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mycontroller.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mycontroller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.4170274">
+            <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#157#0" expanded="false" />
               </folding>
@@ -188,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
     <property name="FullScreen" value="false" />
@@ -263,7 +262,11 @@
       <created>1375163148745</created>
       <updated>1375163148745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Got firebase tied up, styling needs a LOT of work. Yuck.">
+      <created>1375164202177</created>
+      <updated>1375164202177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -294,7 +297,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24413443" sideWeight="0.67176634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13823716" sideWeight="0.67176634" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -351,7 +354,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more work with styling, starting the process of tying to firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got firebase tied up, styling needs a LOT of work. Yuck." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -369,6 +372,7 @@
     <MESSAGE value="tidy" />
     <MESSAGE value="basic angular setup w/ input" />
     <MESSAGE value="some more work with styling, starting the process of tying to firebase" />
+    <MESSAGE value="Got firebase tied up, styling needs a LOT of work. Yuck." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -404,19 +408,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="987" selection-end="987" vertical-scroll-proportion="-18.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.4170274">
+        <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#157#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="579" selection-end="579" vertical-scroll-proportion="0.43328336">
+          <folding />
         </state>
       </provider>
     </entry>
