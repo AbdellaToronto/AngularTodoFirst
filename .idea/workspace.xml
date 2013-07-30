@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afde89c1-78bc-48e8-ad91-7f7b978a4c66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularTodoFirst.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375207914194" ignored="false" />
-    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375202847357" ignored="false" />
+    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375208950178" ignored="false" />
+    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375207933262" ignored="false" />
     <file path="/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375207115554" ignored="false" />
     <file path="/Todo.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163054499" ignored="false" />
     <file path="/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163701424" ignored="false" />
@@ -34,19 +32,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3568216">
+            <state line="26" column="23" selection-start="880" selection-end="880" vertical-scroll-proportion="-16.346153">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mycontroller.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mycontroller.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+            <state line="15" column="37" selection-start="403" selection-end="403" vertical-scroll-proportion="0.22077923">
               <folding>
                 <element signature="e#0#157#0" expanded="false" />
               </folding>
@@ -68,7 +66,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+            <state line="17" column="1" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -282,7 +280,11 @@
       <created>1375202852251</created>
       <updated>1375202852251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="more styling fixes">
+      <created>1375207940800</created>
+      <updated>1375207940800</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -370,7 +372,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fiddling, mostly to figure out more of Bootstrap 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="more styling fixes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -390,6 +392,7 @@
     <MESSAGE value="some more work with styling, starting the process of tying to firebase" />
     <MESSAGE value="Got firebase tied up, styling needs a LOT of work. Yuck." />
     <MESSAGE value="fiddling, mostly to figure out more of Bootstrap 3" />
+    <MESSAGE value="more styling fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,15 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="5080" selection-start="5300" selection-end="5300" vertical-scroll-proportion="-5.44">
@@ -427,24 +421,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+        <state line="17" column="1" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+        <state line="26" column="23" selection-start="880" selection-end="880" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#157#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="531" selection-end="531" vertical-scroll-proportion="0.3568216">
-          <folding />
+        <state line="15" column="37" selection-start="403" selection-end="403" vertical-scroll-proportion="0.22077923">
+          <folding>
+            <element signature="e#0#157#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
