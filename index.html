@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
     <title>Angular Todo with Firebase!</title>
     <link type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
+
+<input ng-model="myTask" placeholder="Add a new task Here">
+
+<h2>{{myTask}}</h2>
 
 </body>
 
@@ -13,6 +17,6 @@
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
     <script type="text/javascript" src="js/angularFire.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
