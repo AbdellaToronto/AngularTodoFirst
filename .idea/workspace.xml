@@ -27,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="63" selection-start="223" selection-end="223" vertical-scroll-proportion="0.31432974">
+            <state line="12" column="40" selection-start="199" selection-end="199" vertical-scroll-proportion="0.31432974">
               <folding />
             </state>
           </provider>
@@ -136,6 +136,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -297,7 +298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="223" selection-end="223" vertical-scroll-proportion="0.31432974">
+        <state line="12" column="40" selection-start="199" selection-end="199" vertical-scroll-proportion="0.31432974">
           <folding />
         </state>
       </provider>
