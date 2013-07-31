@@ -4,26 +4,32 @@
     <title>Angular Todo with Firebase!</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-glyphicons.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body ng-controller="mycontroller">
 
 <div id="main" class="container">
 
-    <div class="row">
-        <div class="col-lg-4 col-offset-3"><input type="text" class="form-control pull-left" ng-model="myTask" placeholder="Add a new task here" /></div>
-        <div class="col-lg-2">
-            <button type="button" class="btn" ng-click="save()">Save</button>
+    <div class="row" id="HeaderRow">
+        <form name="todoForm" novalidate>
+        <div class="col-lg-4 col-sm-4 col-6 col-offset-3">
+            <input type="text" class="form-control pull-left" ng-model="myTask" placeholder="Add a new task here" ng-minlength="3" ng-maxlength="15" required/>
         </div>
-
-
+        <div class="col-lg-2 col-sm-2 col-2">
+            <button type="button" class="btn glyphicon glyphicon-plus" ng-click="save()"> Add Item</button>
+        </div>
+        </form>
     </div>
-    <dl class="dl-horizontal row"  ng-repeat="y in todoList">
-<dt class="col-lg-4">
-    <h3>{{y.x}}</h3>
-</dt>
-     <dd class="col-lg-6"><h4>{{y.x + " " + "Della"}}</h4></dd>
- </dl>
+
+    <div class="list-group">
+    <a href="#" class="list-group-item" ng-repeat="y in todoList">
+        <h3 class="list-group-item-heading">{{y.x}}</h3>
+        <p class="list-group-item-text">{{y.x + " " + "Della"}}</p>
+    </a>
+    </div>
+    
     <h2>{{myTask}}</h2>
 </div>
 

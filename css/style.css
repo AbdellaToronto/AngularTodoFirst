@@ -1,18 +1,15 @@
 #main{
     background-color: #cccccc;
     margin-top: 40px;
+    border-radius: 5px;
 }
 
-.dl-horizontal dt {
-    text-align: left;
-
-}
-
-.dl-horizontal dt h3{
-    padding-left: 15px;
-
-}
 
 .container {
-    max-width: 800px;
+    max-width: 700px;
+}
+
+#HeaderRow{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
