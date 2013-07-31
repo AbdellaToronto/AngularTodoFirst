@@ -13,24 +13,27 @@
 <div id="main" class="container">
 
     <div class="row" id="HeaderRow">
-        <form name="todoForm" novalidate>
-        <div class="col-lg-4 col-sm-4 col-6 col-offset-3">
-            <input type="text" class="form-control pull-left" ng-model="myTask" placeholder="Add a new task here" ng-minlength="3" ng-maxlength="15" required/>
-        </div>
-        <div class="col-lg-2 col-sm-2 col-2">
-            <button type="button" class="btn glyphicon glyphicon-plus" ng-click="save()"> Add Item</button>
-        </div>
+        <form name="todoForm" ng-submit="save()" novalidate>
+            <div class="col-lg-4 col-sm-4 col-6 col-offset-3">
+                <input type="text" class="form-control pull-left" ng-model="myTask" placeholder="Add a new task here" ng-minlength="3" ng-maxlength="15" required/>
+            </div>
+            <div class="col-lg-2 col-sm-2 col-2">
+                <button type="button" class="btn glyphicon glyphicon-plus" ng-click="save()"> Add Item</button>
+            </div>
         </form>
     </div>
 
     <div class="list-group">
-    <a href="#" class="list-group-item" ng-repeat="y in todoList">
-        <h3 class="list-group-item-heading">{{y.x}} <button type="button" class="close" ng-click="delete(y)">&times;</button></h3>
-        <p class="list-group-item-text">{{y.x + " " + "Della"}}</p>
+        <a href="#" class="list-group-item" ng-repeat="todo in todoList" ng-dblclick="edit(todo)">
+            <h3 class="list-group-item-heading" ng-hide="todo.inEdit == true">
+                {{todo.title}} <button type="button" class="close glyphicon glyphicon-fire" ng-click="delete(todo)"></button>
+            </h3>
+            <input ng-model="editing" class="form-control" ng-hide="todo.inEdit == false" >
+            <p class="list-group-item-text">{{todo.title + " " + "Della"}}</p>
 
-    </a>
+        </a>
     </div>
-    
+
     <h2>{{myTask}}</h2>
 </div>
 

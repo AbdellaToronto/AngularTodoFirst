@@ -17,14 +17,22 @@ Todo.controller('mycontroller', ['$scope', 'angularFire',
 
             $scope.save = function () {    //when you click the save button
                 if ($scope.todoForm.$valid) {
-                    $scope.todoList.push({x: $scope.myTask});    //pushes the data in 'myTask' into the html list
+                    $scope.todoList.push({
+                        title: $scope.myTask,
+                        inEdit: false
+                    });    //pushes the data in 'myTask' into the html list
 
                     $scope.myTask = ''; //clears the value in myTask
                 }
             };
 
-            $scope.delete = function(y) {
-                $scope.todoList.splice($scope.todoList.indexOf(y), 1);
+            $scope.delete = function(todo) {
+                $scope.todoList.splice($scope.todoList.indexOf(todo), 1);
+            }
+
+            $scope.edit = function(todo) {
+                $scope.prevTodo = todo;
+                todo.inEdit = true;
             }
 
         })

@@ -13,3 +13,8 @@
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
+
+.close:hover{
+    color:#D62222;
+}
