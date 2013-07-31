@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afde89c1-78bc-48e8-ad91-7f7b978a4c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/docs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mycontroller.js" afterPath="$PROJECT_DIR$/js/mycontroller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularTodoFirst.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375242209706" ignored="false" />
-    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375209159799" ignored="false" />
+    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375243455508" ignored="false" />
+    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375242637983" ignored="false" />
     <file path="/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375242086046" ignored="false" />
     <file path="/Todo.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163054499" ignored="false" />
     <file path="/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375234256353" ignored="false" />
@@ -40,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.33133432">
+            <state line="22" column="74" selection-start="924" selection-end="924" vertical-scroll-proportion="0.48425788">
               <folding />
             </state>
           </provider>
@@ -299,7 +294,11 @@
       <created>1375209163470</created>
       <updated>1375209163470</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed the list type to take advantage of boostrap 3, added some responsive styling">
+      <created>1375242642029</created>
+      <updated>1375242642029</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -387,7 +386,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling done (for now, still ugly) on to do more functionality - added classes to the input so it plays nice with bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the list type to take advantage of boostrap 3, added some responsive styling" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -409,6 +408,7 @@
     <MESSAGE value="fiddling, mostly to figure out more of Bootstrap 3" />
     <MESSAGE value="more styling fixes" />
     <MESSAGE value="Styling done (for now, still ugly) on to do more functionality - added classes to the input so it plays nice with bootstrap" />
+    <MESSAGE value="Changed the list type to take advantage of boostrap 3, added some responsive styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -469,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.33133432">
+        <state line="22" column="74" selection-start="924" selection-end="924" vertical-scroll-proportion="0.48425788">
           <folding />
         </state>
       </provider>
