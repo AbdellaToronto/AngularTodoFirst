@@ -28,9 +28,10 @@
             <h3 class="list-group-item-heading" ng-hide="todo.inEdit == true">
                 {{todo.title}} <button type="button" class="close glyphicon glyphicon-fire" ng-click="delete(todo)"></button>
             </h3>
-            <input ng-model="editing" class="form-control" ng-hide="todo.inEdit == false" >
+            <form name="editTodoForm" ng-submit="updateTodo(todo)" novalidate>
+            <input type="text" ng-model="todo.title" placeholder="{{ todo.title }}" class="form-control" ng-hide="todo.inEdit == false" todo-focus="todo.inEdit == true" todo-blur="cancelEdit(todo)">
+            </form>
             <p class="list-group-item-text">{{todo.title + " " + "Della"}}</p>
-
         </a>
     </div>
 
@@ -42,6 +43,8 @@
 <script type="text/javascript" src="js/angularFire.js"></script>
 <script type="text/javascript" src="js/Todo.js"></script>
 <script type="text/javascript" src="js/mycontroller.js"></script>
+<script type="text/javascript" src="js/todoFocus.js"></script>
+<script type="text/javascript" src="js/todoBlur.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>

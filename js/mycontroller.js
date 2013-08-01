@@ -6,12 +6,14 @@
  * To change this template use File | Settings | File Templates.
  */
 
+
 Todo.controller('mycontroller', ['$scope', 'angularFire',
 
     function mycontroller($scope, angularFire) {
 
         var url = "https://dellas.firebaseio.com/todo"; //url of todolist at firebase
         var promise = angularFire(url, $scope, 'todoList'); //promise, last argument is referencing the firebase model
+
 
         promise.then(function (todoList) {
 
@@ -31,8 +33,25 @@ Todo.controller('mycontroller', ['$scope', 'angularFire',
             }
 
             $scope.edit = function(todo) {
-                $scope.prevTodo = todo;
+                $scope.prevTodo = angular.copy(todo);
                 todo.inEdit = true;
+                $scope.updateSuccess = false;
+            }
+
+            $scope.cancelEdit = function (todo){
+                todo.inEdit = false;
+
+                if($scope.updateSuccess == false){
+                    todo.title = $scope.prevTodo.title;
+                }
+            }
+
+            $scope.updateTodo = function(todo){
+                if(!todo.title){
+                    $scope.delete(todo);
+                }
+                todo.inEdit = false;
+                $scope.updateSuccess = true;
             }
 
         })
