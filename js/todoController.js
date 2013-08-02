@@ -9,7 +9,7 @@
 
 Todo.controller('mycontroller', ['$scope', 'angularFire',
 
-    function mycontroller($scope, angularFire) {
+    function todoController($scope, angularFire) {
 
         var url = "https://dellas.firebaseio.com/todo"; //url of todolist at firebase
         var promise = angularFire(url, $scope, 'todoList'); //promise, last argument is referencing the firebase model

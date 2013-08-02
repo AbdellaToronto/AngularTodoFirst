@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afde89c1-78bc-48e8-ad91-7f7b978a4c66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/todoBlur.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/todoFocus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/todoController.js" />
+      <change type="DELETED" beforePath="C:\wamp\www\AngularTodoFirst\js\mycontroller.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mycontroller.js" afterPath="$PROJECT_DIR$/js/mycontroller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularTodoFirst.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375312350823" ignored="false" />
-    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375303194045" ignored="false" />
-    <file path="/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375290681215" ignored="false" />
+    <file path="/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375485583008" ignored="false" />
+    <file path="/Dummy.txt" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375480331498" ignored="false" />
+    <file path="/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375485363293" ignored="false" />
     <file path="/Todo.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375163054499" ignored="false" />
-    <file path="/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375321702909" ignored="false" />
+    <file path="/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375484091023" ignored="false" />
     <file path="/a.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375296692688" ignored="false" />
     <file path="/todoFocus.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375303705841" ignored="false" />
     <file path="/todoBlur.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375304320497" ignored="false" />
+    <file path="$PROJECT_DIR$/../PortfolioSite/index.html" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375485370581" ignored="false" />
+    <file path="$PROJECT_DIR$/../PortfolioSite/css/style.css" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375485429882" ignored="false" />
+    <file path="$PROJECT_DIR$/../PortfolioSite/js/mycontroller.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375484115637" ignored="false" />
+    <file path="/todoController.js" changelist="afde89c1-78bc-48e8-ad91-7f7b978a4c66" time="1375485562130" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +43,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="1756" selection-end="1756" vertical-scroll-proportion="-20.923077">
+            <state line="10" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mycontroller.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="45" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.46556887">
+            <state line="11" column="15" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todoController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/todoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="81" selection-start="520" selection-end="520" vertical-scroll-proportion="0.39427012">
               <folding />
             </state>
           </provider>
@@ -82,16 +94,17 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/todoFocus.js" />
         <option value="$PROJECT_DIR$/js/todoBlur.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/mycontroller.js" />
+        <option value="$PROJECT_DIR$/js/todoController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -119,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,19 +195,29 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/cmd/git.exe" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="869f528d-6f03-4f29-83d5-fb5e48e59d86">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -295,7 +319,11 @@
       <created>1375303198859</created>
       <updated>1375303198859</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Got editting working, as well as finally figuring out how to copy a model without the binding">
+      <created>1375321871794</created>
+      <updated>1375321871794</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -319,14 +347,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13823716" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13823716" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -336,6 +363,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -383,7 +411,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="lots of small changes, currently working on edit functionality (with double click)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got editting working, as well as finally figuring out how to copy a model without the binding" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -409,6 +437,7 @@
     <MESSAGE value="Added close button to headers of list items" />
     <MESSAGE value="added delete functionality" />
     <MESSAGE value="lots of small changes, currently working on edit functionality (with double click)" />
+    <MESSAGE value="Got editting working, as well as finally figuring out how to copy a model without the binding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -416,23 +445,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="87" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+        <state line="26" column="87" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -451,9 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -463,48 +488,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="10" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/todoBlur.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="13" column="34" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/todoFocus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
+        <state line="15" column="24" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="15" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1756" selection-end="1756" vertical-scroll-proportion="-20.923077">
+        <state line="10" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mycontroller.js">
+    <entry file="file://$PROJECT_DIR$/js/todoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="45" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.46556887">
+        <state line="17" column="81" selection-start="520" selection-end="520" vertical-scroll-proportion="0.39427012">
           <folding />
         </state>
       </provider>
